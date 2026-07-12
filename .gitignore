@@ -1,0 +1,38 @@
+# ===== Secrets / environment =====
+.env
+.env.*
+!.env.example
+.drytis/cred.json
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# ===== Node / frontend =====
+node_modules/
+dist/
+*.local
+
+# ===== Build outputs / runtime =====
+backend/uploads/
+*.log
+*.sqlite
+*.sqlite3
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== MCP / tooling temp =====
+.playwright-mcp/
+*.png
+userDocs/
+*.docx
